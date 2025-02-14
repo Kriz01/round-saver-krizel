@@ -80,12 +80,8 @@ This endpoint processes the round-up for an account. It fetches feed transaction
 
 #### Response:
 Returns a JSON object with the total round-up amount in the selected currency.
-```
-{
-  "currency": "GBP",
-  "amount": 3.50
-}
-```
+
+![Roundup Feature](transfer-roundup.png)
 
 ### 2. Transfer Round-up to Savings
 
@@ -101,7 +97,8 @@ This endpoint transfers the calculated round-up amount to a savings goal for the
 - **AddMoneyRequest** (body): Contains the amount to be transferred and other relevant information in the request body
 
 #### Response:
-Return 200 response
+
+![Roundup Feature](round-up.png)
 
 
 
